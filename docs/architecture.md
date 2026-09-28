@@ -98,58 +98,58 @@ Current areas of development include:
 - Security policy enforcement
 - Windows auditing and logging
 
-  The Windows environment is intended to model common enterprises administration and security practices.
+The Windows environment is intended to model common enterprises administration and security practices.
 
-  ## Security
+## Security
 
-  Security is incorporated into the environment as part of the infrastructure design rather than treated as a separate component.
+Security is incorporated into the environment as part of the infrastructure design rather than treated as a separate component.
 
-  Current areas of focus include:
+Current areas of focus include:
 
-  - Group Policy security configuration
-  - Account and authentication policies
-  - Windows auditing
-  - security logging
-  - Microsoft Defender configuration
-  - Windows Firewall configuration
-  - Principle of least privilege
-  - STIG-aligned security hardening
+ - Group Policy security configuration
+ - Account and authentication policies
+ - Windows auditing
+ - security logging
+ - Microsoft Defender configuration
+ - Windows Firewall configuration
+ - Principle of least privilege
+ - STIG-aligned security hardening
  
-  Security controls are implemented incrementally and documented as the lab develops.
+Security controls are implemented incrementally and documented as the lab develops.
 
-  ## Planned Architecture
+## Planned Architecture
 
-  Future phases of the homelab are expected to include:
+Future phases of the homelab are expected to include:
 
-  - Kubernetes cluster deployment
-  - Infrastructure as Code with Terraform
-  - Configuration automation
-  - Centralized logging and monitoring
-  - Expanded network segmentation
-  - Linux infrastructure services
-  - Containerized applications
-  - Additional security monitoring and hardening
+- Kubernetes cluster deployment
+- Infrastructure as Code with Terraform
+- Configuration automation
+- Centralized logging and monitoring
+- Expanded network segmentation
+- Linux infrastructure services
+- Containerized applications
+- Additional security monitoring and hardening
  
-  These components will be documented as they are implemented rather than represented as existing infrastructure.
+These components will be documented as they are implemented rather than represented as existing infrastructure.
 
-  ## Architecture Decisions
+## Architecture Decisions
 
-  Major architecture decisions will be documented throughout the project to capture both the implementation and the reasoning behind it.
+Major architecture decisions will be documented throughout the project to capture both the implementation and the reasoning behind it.
 
-  Areas that will be documented include:
+Areas that will be documented include:
 
-  - Network isolation strategy
-  - Virtualization architecture
-  - Active Directory design
-  - Group Policy organization
-  - Security baseline decisions
-  - Kubernetes architecture
-  - Infrastructure autoamtion
-  - Monitoring and logging strategy
+ - Network isolation strategy
+ - Virtualization architecture
+ - Active Directory design
+ - Group Policy organization
+ - Security baseline decisions
+ - Kubernetes architecture
+ - Infrastructure autoamtion
+ - Monitoring and logging strategy
  
-  ## Documentation
+## Documentation
 
-  Additional technical documentation will be added as individual components of the environment are developed.
+Additional technical documentation will be added as individual components of the environment are developed.
   
 
 
