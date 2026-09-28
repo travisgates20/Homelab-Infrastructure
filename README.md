@@ -2,6 +2,14 @@
 
 A hands-on enterprise-style homelab built to develop and demonstrate practical experience with systems administration, security, networking, automation, and cloud-native infrastructure.
 
+## Architecture
+
+![Homelab Architecture](assets/diagrams/homelab-architecture.png)
+
+The lab uses a dedicated, isolated network for the Proxmox infrastructure while a dual-homed management workstation provides administrative access to both the lab environment and the internet.
+
+For additional details, see the [architecture documentation](docs/architecture.md).
+
 ## Environment
 
 The lab is built on three physical HP systems running Proxmox VE and provides an isolated environment for deploying and managing enterprise infrastructure.
@@ -45,9 +53,10 @@ This environment is designed to provide hands-on experience with:
 
 ## Documentation
 
-Detailed documentation is maintained within the [`docs`](docs/) directory.
-
 - [Architecture](docs/architecture.md)
+- [Network Architecture](docs/network.md)
+- [Active Directory](docs/active-directory.md)
+- [Security Hardening](docs/security-hardening.md)
 
 ## Project Status
 
